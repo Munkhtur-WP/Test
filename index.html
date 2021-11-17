@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+      <link rel="stylesheet" href="style.css">
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	  
+</head>
+<div class="card" style="width: 28rem;">
+<div class="calculator">
+    <div class="col-16">
+      <div class="calculator_display">0</div>
+    </div>
+ <div class="calculator_keys">
+  <div class="row">
+    <div class="col-18">	  
+       <button class="key--operator" data-action="add">+</button> 
+       <button class="key--operator" data-action="subtract">-</button>
+	   <button class="key--operator" data-action="multiply">&times;</button>
+	   <button class="key--operator" data-action="divide">÷</button>
+	</div>
+   </div>
+   <div class="col-18">
+	<button>7</button>
+	<button>8</button>
+	<button>9</button>
+	</div>
+	<div class="col-18">
+	<button>4</button>
+	<button>5</button>
+	<button>6</button>
+	</div>
+	<div class="col-18">
+	<button>1</button>
+	<button>2</button>
+	<button>3</button>
+	</div>
+	<div class="col-18">
+	<button>0</button>
+	<button data-action="decimal">.</button>
+	<button data-action="clear">AC</button>
+	</div>
+	<div class="col-18">
+	<button class="key-equal" data-action="calculate">=</button>
+	</div>
+ </div>
+</div>
+</div>
+<script src="calc.js"></script>
+</html>
